@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  /*
+   * Buatlah minimal 5 konfigurasi ESLint untuk opsi RULES.
+   * Selanjutnya, install Prettier secara lokal dan buatlah minimal 3 opsi konfigurasi.
+  */
+  "rules": {}
 }

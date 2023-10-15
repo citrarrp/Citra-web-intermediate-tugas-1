@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Study Club Batch 1 KSM Android UPNVJ 2023
 
-## Getting Started
+## Kelas Web Intermediate
 
-First, run the development server:
+**Mentor**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Muhammad Aziz Prasetyo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Mentee**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Abiyyah Putri Rahman
+- Amanda Devia Kurniawan
+- Billy Alexander
+- Citra Rahmawati Ratu Pertiwi
+- Muhammad Arief Budiman
+- Muhammad Fadhil Musyaffa
+- Nova Enjelina Pakpahan
+- Simon Rizky Valentino Simanjuntak
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tugas 1
 
-## Learn More
+Materi Pertemuan 1
 
-To learn more about Next.js, take a look at the following resources:
+1. Buatlah 5 konfigurasi ESLint untuk opsi _rules_.
+2. _Install_ Prettier secara lokal dan buatlah 3 opsi konfigurasi.
+3. Buatlah 3 halaman statis dan 2 halaman dinamis. Tampilkan data dari _path paramaters_ halaman dinamis ke halaman
+   dinamis itu sendiri.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Materi Pertemuan 2
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Buatlah 2 _loading environment variables_ dan 2 _bundling environment variables_. Tampilkan data dari _variable_
+   tersebut ke halaman statis atau dinamis dan _log_ di sisi _server_.
+5. Buatlah 2 opsi konfigurasi `next.config.js`.
+6. Buatlah 2 _paths_ pada `jsconfig.json` untuk memudahkan ketika mengimpor _local module_.
 
-## Deploy on Vercel
+Materi Pertemuan 3
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+7. Buatlah 3 komponen yang berbeda jenis dan masing-masing komponen diberikan _styling_ menggunakan normal CSS
+   dari `globals.css`, CSS _module_, dan Tailwind CSS. Tampilkan komponen tersebut ke satu halaman yang sama.
+8. Buatlah _custom font_ yang berbeda untuk 2 komponen berupa teks menggunakan `next/font`.
+9. Buatlah sebuah halaman statis baru yang menerapkan _responsive web design_ dengan Tailwind CSS. Buatlah juga sebuah
+   komponen tambahan khusus yang menerapkan _custom styles_ dari `tailwind.config.js`.
+10. Buatlah sebuah komponen _button_ yang diberikan _styling_ menggunakan _arbitrary values_ Tailwind CSS. Tampilkan
+    komponen tersebut ke halaman dinamis.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Materi Pertemuan 4
+
+11. Tampilkan komponen berjenis _image_ menggunakan HTML `<img />` _tag_ dan Next.js Image `<Image />` ke halaman statis
+    yang sama.
+12. Tampilkan komponen berjenis _image_ ke halaman dinamis menggunakan `<Image />` dan gambar berasal dari domain luar.
+    Lakukan konfigurasi domain pada `next.config.js`.
+13. Tampilkan komponen berjenis _image_ ke halaman dinamis menggunakan `<Image />` dan blurDataUrl.
