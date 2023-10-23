@@ -3,6 +3,21 @@
   /*
    * Buatlah minimal 5 konfigurasi ESLint untuk opsi RULES.
    * Selanjutnya, install Prettier secara lokal dan buatlah minimal 3 opsi konfigurasi.
-  */
-  "rules": {}
+   */
+  "rules": {
+    "use-isnan": "error", //Untuk menghindari perbandingan langsung dengan NaN, harus dengan fungsi isNan sehingga kode jadi lebih rapih.
+    "no-duplicate-imports": "error", //Untuk mengurangi redundansi dan kerapian kode, jadi tidak ada impor duplikat untuk sebuah modul.
+    "no-use-before-define": [
+      //Untuk memeriksa penggunaan variabel, fungsi, atau kelas apa sudah dideklarasikan
+      "error",
+      {
+        "functions": true,
+        "classes": true,
+        "variables": true,
+        "allowNamedExports": true
+      }
+    ],
+    "no-unexpected-multiline": "error", //Untuk mencegah penggunaan karakter baris baru yang tidak diharapkan.
+    "no-console": "warn" //Untuk memberikan warn di baris program yang terdapat penggunaan console
+  }
 }
