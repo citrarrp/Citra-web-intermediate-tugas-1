@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         sans: ["DMSans", "sans"],
       },
+      colors: {
+        "custom-colors": "#fff",
+      },
     },
   },
   plugins: [],

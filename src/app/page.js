@@ -8,7 +8,7 @@ import Tag from "@/app/tag";
 import NormalCSS from "@/app/components/normalCSS";
 import CSSModule from "@/app/components/moduleCSS";
 import CSSTailwind from "@/app/components/TailwindCSS";
-import ResponsivePage from "./responsive/page";
+import CustomButton from "./components/customStyle.js";
 
 export default function Home() {
   const [blogName, setBlogName] = useState("");
@@ -65,6 +65,7 @@ export default function Home() {
           Ke Halaman Responsif
         </p>
       </Link>
+      <CustomButton />
     </main>
   );
 }
